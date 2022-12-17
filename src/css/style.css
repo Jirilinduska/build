@@ -1,5 +1,20 @@
+@font-face {
+  font-family: "Museo Sans Light";
+  src: url("../css/fonts/MuseoSans/MuseoSansCyrl-300.eot");
+  src: url("../css/fonts/MuseoSans/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../css/fonts/MuseoSans/MuseoSansCyrl-300.woff") format("woff"), url("../css/fonts/MuseoSans/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Museo Sans Bold";
+  src: url("../css/fonts/MuseoSans/MuseoSansCyrl-700.eot");
+  src: url("../css/fonts/MuseoSans/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../css/fonts/MuseoSans/MuseoSansCyrl-700.woff") format("woff"), url("../css/fonts/MuseoSans/MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-  font-family: sans-serif;
+  font-family: "Museo Sans Light", sans-serif;
+  font-weight: 300;
 }
 
 .container {
@@ -48,6 +63,8 @@ body {
 }
 .header__phone {
   color: #333;
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
   font-size: 20px;
   font-weight: 400;
   text-decoration: none;
@@ -56,6 +73,8 @@ body {
 }
 .header__button {
   padding: 18px 47px;
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
   border-radius: 10px;
   margin-left: 30px;
   font-size: 13px;
@@ -85,6 +104,8 @@ body {
   font-size: 41px;
   color: #333;
   padding-right: 200px;
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
   line-height: 55px;
   margin: 45px 0 20px 0;
 }

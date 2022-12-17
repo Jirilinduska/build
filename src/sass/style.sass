@@ -1,8 +1,9 @@
 @import "vars"
+@import "fonts"
 
 
 body
-    font-family: sans-serif
+    +reg 
 
 .container
     max-width: 1170px
@@ -37,6 +38,7 @@ body
         font-weight: 400
     &__phone
         color: $accent
+        +bold 
         font-size: 20px
         font-weight: 400
         text-decoration: none
@@ -44,6 +46,7 @@ body
         margin-top: 5px
     &__button
         padding: 18px 47px
+        +bold 
         border-radius: 10px
         margin-left: 30px
         font-size: 13px
@@ -63,6 +66,7 @@ body
             font-size: 41px
             color: $accent
             padding-right: 200px
+            +bold 
             line-height: 55px
             margin: 45px 0 20px 0
             @media (max-width: 1200px)
@@ -77,13 +81,10 @@ body
             @media (max-width: 640px)
                 font-size: 16px
                 line-height: 1.4
-            
-
     &-image
         margin-right: -55px
         @media (max-width: 1200px)
             width: 100%
-        
     &-list
         margin: 40px 0 0 0 
         padding: 0 0 0 0
